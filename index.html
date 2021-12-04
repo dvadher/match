@@ -1,0 +1,1003 @@
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<!-- html -->
+<html>
+<!-- head -->
+<head>
+    <title>Match a Matrimonial Category Bootstrap Responsive Web Template | index :: w3layouts</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" /><!-- bootstrap-CSS -->
+    <link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="all" /><!-- Fontawesome-CSS -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script type='text/javascript' src='js/jquery-2.2.3.min.js'></script>
+    <!-- Custom Theme files -->
+    <link href="css/menu.css" rel="stylesheet" type="text/css" media="all" /> <!-- menu style -->
+    <!--theme-style-->
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <!--//theme-style-->
+    <link rel="stylesheet" type="text/css" href="css/easy-responsive-tabs.css " />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--meta data-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Match Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+        Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!--//meta data-->
+    <!-- online fonts -->
+    <link href="css/Poppins.css" rel="stylesheet">
+    <link href="css/Open+Sans.css" rel="stylesheet">
+    <!-- /online fonts -->
+    <!-- nav smooth scroll -->
+    <script>
+        $(document).ready(function () {
+            $(".dropdown").hover(
+                function () {
+                    $('.dropdown-menu', this).stop(true, true).slideDown("fast");
+                    $(this).toggleClass('open');
+                },
+                function () {
+                    $('.dropdown-menu', this).stop(true, true).slideUp("fast");
+                    $(this).toggleClass('open');
+                }
+            );
+        });
+    </script>
+    <!-- //nav smooth scroll -->
+    <!-- Calendar -->
+    <link rel="stylesheet" href="css/jquery-ui.css" />
+    <script src="js/jquery-ui.js"></script>
+    <script>
+        $(function () {
+            $("#datepicker").datepicker();
+        });
+    </script>
+    <!-- //Calendar -->
+    <link rel="stylesheet" href="css/intlTelInput.css">
+</head>
+<!-- //head -->
+<!-- body -->
+<body>
+
+    <!-- header -->
+    <header>
+        <!--  Navigation Start -->
+        <div class="navbar navbar-inverse-blue navbar">
+            <!--<div class="navbar navbar-inverse-blue navbar-fixed-top">-->
+            <div class="navbar-inner">
+                <div class="container">
+                    <div class="logo">
+                        <h1><a class="cd-logo link link--takiri" href="index.html">Match <span><i class="fa fa-heart" aria-hidden="true"></i>Made in heaven.</span></a></h1>                                           
+                    </div>
+                    <div class="pull-right">
+                        <nav class="navbar nav_bottom" role="navigation">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header nav_2">
+                                <button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">                            
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+                                <ul class="nav navbar-nav nav_1">
+                                    <li class="active"><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="search.html">Search</a></li>
+                                    <li><a href="app.html" target="_blank">Mobile</a></li>
+                                    <!--<li class="dropdown">
+                                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Search<span class="caret"></span></a>
+                                      <ul class="dropdown-menu" role="menu">
+                                        <li><a href="search.html">Regular Search</a></li>
+                                        <li><a href="profile.html">Recently Viewed Profiles</a></li>
+                                        <li><a href="search-id.html">Search By Profile ID</a></li>
+                                        <li><a href="faq.html">Faq</a></li>
+                                        <li><a href="shortcodes.html">Shortcodes</a></li>
+                                      </ul>
+                                    </li>-->
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Quick Search<span class="caret"></span></a>
+                                        <ul class="dropdown-menu" role="menu">
+                                            <div class="banner-bottom-login">
+                                                <div class="w3agile_banner_btom_login">
+                                                    <form action="#" method="post">
+                                                        <div class="w3agile__text w3agile_banner_btom_login_left">
+                                                            <h4>I'm looking for a</h4>
+                                                            <select id="country" onchange="change_country(this.value)" class="frm-field required">
+                                                                <option value="null">Bride</option>
+                                                                <option value="null">Groom</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="w3agile__text w3agile_banner_btom_login_left1">
+                                                            <h4>Aged</h4>
+                                                            <select id="country1" onchange="change_country(this.value)" class="frm-field required">
+                                                                <option value="null">20</option>
+                                                                <option value="null">21</option>
+                                                                <option value="null">22</option>
+                                                                <option value="null">23</option>
+                                                                <option value="null">24</option>
+                                                                <option value="null">25</option>
+                                                                <option value="null">- - -</option>
+                                                            </select>
+                                                            <span>To </span>
+                                                            <select id="country2" onchange="change_country(this.value)" class="frm-field required">
+                                                                <option value="null">30</option>
+                                                                <option value="null">31</option>
+                                                                <option value="null">32</option>
+                                                                <option value="null">33</option>
+                                                                <option value="null">34</option>
+                                                                <option value="null">35</option>
+                                                                <option value="null">- - -</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="w3agile__text w3agile_banner_btom_login_left2">
+                                                            <h4>Religion</h4>
+                                                            <select id="country3" onchange="change_country(this.value)" class="frm-field required">
+                                                                <option value="null">Hindu</option>
+                                                                <option value="null">Muslim</option>
+                                                                <option value="null">Christian</option>
+                                                                <option value="null">Sikh</option>
+                                                                <option value="null">Jain</option>
+                                                                <option value="null">Buddhist</option>
+                                                                <option value="null">No Religious Belief</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="w3agile_banner_btom_login_left3">
+                                                            <input type="submit" value="Search" />
+                                                        </div>
+                                                        <div class="clearfix"> </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </ul>
+                                    </li>
+                                    <li class="last"><a href="contact.html">Contacts</a></li>
+                                </ul>
+                            </div><!-- /.navbar-collapse -->
+                        </nav>
+                    </div> <!-- end pull-right -->
+                    <div class="clearfix"> </div>
+                </div> <!-- end container -->
+            </div> <!-- end navbar-inner -->
+        </div> <!-- end navbar-inverse-blue -->
+        <!-- ============================  Navigation End ============================ -->
+    </header>
+    <!-- /header -->
+
+    <div class="w3layouts-banner relative" id="home">
+        <img src="images/bg-elements.png" class="bg-icon icon-left-bottom">
+        <img src="images/bg-elements.png" class="bg-icon icon-right-bottom">
+        <div class="container">                  
+            <div class="clearfix"></div>
+            <div class="agileits-register">
+                <h3>Register NOW!</h3>
+                <form action="#" method="post">
+                    <div class="w3_modal_body_grid">
+                        <span>Profile For:</span>
+                        <select id="w3_country" onchange="change_country(this.value)" class="frm-field required">
+                            <option value="null">Select</option>
+                            <option value="null">Myself</option>
+                            <option value="null">Son</option>
+                            <option value="null">Daughter</option>
+                            <option value="null">Brother</option>
+                            <option value="null">Sister</option>
+                            <option value="null">Relative</option>
+                            <option value="null">Friend</option>
+                        </select>
+                    </div>
+                    <div class="w3_modal_body_grid w3_modal_body_grid1">
+                        <span>Name:</span>
+                        <input type="text" name="Name" placeholder=" " required="" />
+                    </div>
+                    <div class="w3_modal_body_grid">
+                        <span>Gender:</span>
+                        <div class="w3_gender">
+                            <div class="colr ert">
+                                <label class="radio"><input type="radio" name="radio" checked><i></i>Male</label>
+                            </div>
+                            <div class="colr">
+                                <label class="radio"><input type="radio" name="radio"><i></i>Female</label>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="w3_modal_body_grid w3_modal_body_grid1">
+                        <span>Date Of Birth:</span>
+                        <input class="date" id="datepicker" name="Text" type="text" value="mm/dd/yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '2/08/2013';}" required="" />
+                    </div>
+                    <div class="w3_modal_body_grid">
+                        <span>religion:</span>
+                        <select id="w3_country1" onchange="change_country(this.value)" class="frm-field required">
+                            <option value="null">Select Religion</option>
+                            <option value="null">Muslim</option>
+                            <option value="null">Hindu</option>
+                            <option value="null">Christian</option>
+                            <option value="null">Sikh</option>
+                            <option value="null">Jain</option>
+                            <option value="null">Buddhist</option>
+                            <option value="null">No Religious Belief</option>
+                        </select>
+                    </div>
+                    <div class="w3_modal_body_grid w3_modal_body_grid1">
+                        <span>Mobile No:</span>
+                        <!-- country codes (ISO 3166) and Dial codes. -->
+                        <input id="phone" type="text">
+                        <!-- Load jQuery from CDN so can run demo immediately -->
+                        <!--<script src="js/intlTelInput.js"></script>-->
+                        <!--<script>
+                            $("#phone").intlTelInput({
+                                // allowDropdown: false,
+                                // autoHideDialCode: false,
+                                // autoPlaceholder: "off",
+                                // dropdownContainer: "body",
+                                // excludeCountries: ["us"],
+                                // formatOnDisplay: false,
+                                // geoIpLookup: function(callback) {
+                                //   $.get("http://ipinfo.io", function() {}, "jsonp").always(function(resp) {
+                                //     var countryCode = (resp && resp.country) ? resp.country : "";
+                                //     callback(countryCode);
+                                //   });
+                                // },
+                                // initialCountry: "auto",
+                                // nationalMode: false,
+                                // onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
+                                // placeholderNumberType: "MOBILE",
+                                // preferredCountries: ['cn', 'jp'],
+                                // separateDialCode: true,
+                                //utilsScript: "js/utils.js"
+                            });
+                        </script>-->
+                    </div>
+                    <div class="w3_modal_body_grid">
+                        <span>Email:</span>
+                        <input type="email" name="Email" placeholder=" " required="" />
+                    </div>
+                    <div class="w3_modal_body_grid w3_modal_body_grid1">
+                        <span>Password:</span>
+                        <input type="password" name="Password" placeholder=" " required="" />
+                    </div>
+                    <div class="w3-agree">
+                        <input type="checkbox" id="c1" name="cc">
+                        <label class="agileits-agree">I have read & agree to the <a href="terms.html">Terms and Conditions</a></label>
+                    </div>
+                    <input type="submit" value="Register me" />
+                    <div class="clearfix"></div>
+                    <p class="w3ls-login">Already a member? <a href="#" data-toggle="modal" data-target="#myModal">Login</a></p>
+                </form>
+            </div>
+            <!-- Modal -->
+            <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title">Login to Continue</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="login-w3ls">
+                                <form id="signin" action="#" method="post">
+                                    <label>User Name </label>
+                                    <input type="text" name="User Name" placeholder="Username" required="">
+                                    <label>Password</label>
+                                    <input type="password" name="Password" placeholder="Password" required="">
+                                    <div class="w3ls-loginr">
+                                        <input type="checkbox" id="brand" name="checkbox" value="">
+                                        <span> Remember me ?</span>
+                                        <a href="#">Forgot password ?</a>
+                                    </div>
+                                    <div class="clearfix"> </div>
+                                    <input type="submit" name="submit" value="Login">
+                                    <div class="clearfix"> </div>
+                                    <div class="social-icons">
+                                        <ul>
+                                            <li><a href="#"><span class="icons"><i class="fa fa-facebook" aria-hidden="true"></i></span><span class="text">Facebook</span></a></li>
+                                            <li class="twt"><a href="#"><span class="icons"><i class="fa fa-twitter" aria-hidden="true"></i></span><span class="text">Twitter</span></a></li>
+                                        </ul>
+                                        <div class="clearfix"> </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- //Modal -->
+        </div>
+    </div>
+    <div class="section-about section-spacer relative">
+        <img src="images/bg-elements.png" class="bg-icon icon-right-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                  <div class="img-block">
+                    <img src="images/about-img-600x483.jpg">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="section-content">
+                        <div class="section-heading">
+                            <h3>We help you find your Soulmate​</h3>
+                         </div>
+                         <div class="section-normal-content">
+                            <p>If you’re a Single Muslim and looking for love, we’re here to help. Our friendly users, advanced features and systematic management means you’ll have great experience at Nikaah.</p>
+                            <p>We are strongly dedicated in making our website safe and halal for all our users by manually approving the users and inspecting the site to remove any haram.</p>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div>
+    <!-- Find your soulmate -->
+
+    <div class="section-counter section-bg relative">
+        <img src="images/bg-elements.png" class="bg-icon icon-left-bottom">
+        <img src="images/bg-elements.png" class="bg-icon icon-right-bottom">
+        <div class="container">
+            <div class="section-heading text-center">
+                <img src="images/ring.png" class="heading-s-icon">
+                <h3>We Have Many  <span>Satisfied Members</span></h3>
+                <p>Find our featured members, online members. Search the gender that you prefer. Join us and get a chance to see yourself in this featured section.</p>
+           </div>
+           <div class="section-counter-inner-content">
+            <div class="row">                                                       
+                <div class="col-md-6 col-lg-3">
+                    <div class="count-content d-flex" data-aos="fade-up">                    
+                       <div class="count-n-content number ml-3 ml-md-2 ml-lg-3 mb-4 mb-md-0 mb-lg-0">                          
+                          <div class="counter" data-count="150">0</div>
+                          <h5 class="text-white font-bold">Total Members</h5>
+                       </div>
+                    </div>
+                 </div> 
+                 <div class="col-md-6 col-lg-3">
+                    <div class="count-content d-flex" data-aos="fade-up">                    
+                       <div class="count-n-content number ml-3 ml-md-2 ml-lg-3 mb-4 mb-md-0 mb-lg-0">
+                          <!-- <h4 class="number text-white m-0"><span class="counter">500</span><b class="ml-2">+</b></h4> -->
+                          <div class="counter" data-count="85">0</div>
+                          <h5 class="text-white font-bold">Couples Matched</h5>
+                       </div>
+                    </div>
+                 </div> 
+                 <div class="col-md-6 col-lg-3">
+                    <div class="count-content d-flex" data-aos="fade-up">                    
+                       <div class="count-n-content number ml-3 ml-md-2 ml-lg-3 mb-4 mb-md-0 mb-lg-0">
+                          <!-- <h4 class="number text-white m-0"><span class="counter">800</span><b class="ml-2">+</b></h4> -->
+                          <div class="counter" data-count="2200">0</div>
+                          <h5 class="text-white font-bold">Successful Stories</h5>
+                       </div>
+                    </div>
+                 </div> 
+               <div class="col-md-6 col-lg-3">
+                  <div class="count-content d-flex" data-aos="fade-up">                    
+                     <div class="count-n-content number ml-3 ml-md-2 ml-lg-3 mb-4 mb-md-0 mb-lg-0">
+                        <!-- <h4 class="number text-white m-0"><span class="counter">900</span><b class="ml-2">+</b></h4> -->
+                        <div class="counter" data-count="2200">0</div>
+                        <h5 class="text-white font-bold">Satisfied Users</h5>
+                     </div>
+                  </div>
+               </div> 
+                                                              
+         </div>
+          </div>
+        </div> 
+    </div>
+
+
+    <!-- <div class="w3l_find-soulmate text-center section-spacer">
+       <div class="section-heading">
+            <h3>Find Your <span>Soulmate</span></h3>
+       </div>
+        <div class="container">
+            <a class="scroll" href="#home">
+                <div class="col-md-3 w3_soulgrid">
+                    <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                    <h3>Sign Up</h3>
+                    <p>Signup for free and Upload your profile</p>
+                </div>
+            </a>
+            <a class="scroll" href="#home">
+                <div class="col-md-3 w3_soulgrid">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                    <h3>Search</h3>
+                    <p>Search for your right partner</p>
+                </div>
+            </a>
+            <a class="scroll" href="#home">
+                <div class="col-md-3 w3_soulgrid">
+                    <i class="fa fa-users" aria-hidden="true"></i>
+                    <h3>Connect</h3>
+                    <p>Connect your perfect Match</p>
+                </div>
+            </a>
+            <a class="scroll" href="#home">
+                <div class="col-md-3 w3_soulgrid">
+                    <i class="fa fa-comments-o" aria-hidden="true"></i>
+                    <h3>Interact</h3>
+                    <p>Become a member and start Conversation</p>
+                </div>
+            </a>
+            <div class="clearfix"> </div>
+        </div>
+    </div> -->
+    <!-- //Find your soulmate -->
+    <!-- featured profiles -->
+    <div class="w3layouts_featured-profiles relative">
+        <img src="images/bg-elements.png" class="bg-icon icon-left-bottom">
+        <img src="images/bg-elements.png" class="bg-icon icon-right-bottom">
+        <div class="container">
+            <!-- slider -->
+            <div class="agile_featured-profiles">
+                <div class="section-heading text-center">
+                    <img src="images/ring.png" class="heading-s-icon">
+                    <h3>Featured <span>Profiles</span></h3>
+               </div>               
+                <ul id="flexiselDemo3">
+                    <li>
+                        <div class="col-md-4 biseller-column">
+                            <a href="groom_profile.html">
+                                <div class="profile-image">
+                                    <img src="images/p1.jpg" class="img-responsive" alt="profile image">
+                                    <div class="agile-overlay">
+                                        <h4>Profile ID: 458645</h4>
+                                        <ul>
+                                            <li><span>Age / Height</span>: 26 / 5'0''</li>
+                                            <li><span>Caste</span>: Ipsum</li>
+                                            <li><span>Religion</span>: Lorem</li>
+                                            <li><span>Profession</span>: IT Software</li>
+                                            <li><span>Profile Created By</span>: Self</li>
+                                            <li><span>Location</span>: Semrd, 7th c, Los</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 biseller-column">
+                            <a href="groom_profile.html">
+                                <div class="profile-image">
+                                    <img src="images/p2.jpg" class="img-responsive" alt="profile image">
+                                    <div class="agile-overlay">
+                                        <h4>Profile ID: 458645</h4>
+                                        <ul>
+                                            <li><span>Age / Height</span>: 26 / 5'0''</li>
+                                            <li><span>Caste</span>: Ipsum</li>
+                                            <li><span>Religion</span>: Lorem</li>
+                                            <li><span>Profession</span>: IT Software</li>
+                                            <li><span>Profile Created By</span>: Self</li>
+                                            <li><span>Location</span>: Semrd, 7th c, Los</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 biseller-column">
+                            <a href="bride_profile.html">
+                                <div class="profile-image">
+                                    <img src="images/p3.jpg" class="img-responsive" alt="profile image">
+                                    <div class="agile-overlay">
+                                        <h4>Profile ID: 458645</h4>
+                                        <ul>
+                                            <li><span>Age / Height</span>: 26 / 5'0''</li>
+                                            <li><span>Caste</span>: Ipsum</li>
+                                            <li><span>Religion</span>: Lorem</li>
+                                            <li><span>Profession</span>: IT Software</li>
+                                            <li><span>Profile Created By</span>: Self</li>
+                                            <li><span>Location</span>: Semrd, 7th c, Los</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 biseller-column">
+                            <a href="groom_profile.html">
+                                <div class="profile-image">
+                                    <img src="images/p4.jpg" class="img-responsive" alt="profile image">
+                                    <div class="agile-overlay">
+                                        <h4>Profile ID: 458645</h4>
+                                        <ul>
+                                            <li><span>Age / Height</span>: 26 / 5'0''</li>
+                                            <li><span>Caste</span>: Ipsum</li>
+                                            <li><span>Religion</span>: Lorem</li>
+                                            <li><span>Profession</span>: IT Software</li>
+                                            <li><span>Profile Created By</span>: Self</li>
+                                            <li><span>Location</span>: Semrd, 7th c, Los</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 biseller-column">
+                            <a href="bride_profile.html">
+                                <div class="profile-image">
+                                    <img src="images/p5.jpg" class="img-responsive" alt="profile image">
+                                    <div class="agile-overlay">
+                                        <h4>Profile ID: 458645</h4>
+                                        <ul>
+                                            <li><span>Age / Height</span>: 26 / 5'0''</li>
+                                            <li><span>Caste</span>: Ipsum</li>
+                                            <li><span>Religion</span>: Lorem</li>
+                                            <li><span>Profession</span>: IT Software</li>
+                                            <li><span>Profile Created By</span>: Self</li>
+                                            <li><span>Location</span>: Semrd, 7th c, Los</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 biseller-column">
+                            <a href="bride_profile.html">
+                                <div class="profile-image">
+                                    <img src="images/p6.jpg" class="img-responsive" alt="profile image">
+                                    <div class="agile-overlay">
+                                        <h4>Profile ID: 458645</h4>
+                                        <ul>
+                                            <li><span>Age / Height</span>: 26 / 5'0''</li>
+                                            <li><span>Caste</span>: Ipsum</li>
+                                            <li><span>Religion</span>: Lorem</li>
+                                            <li><span>Profession</span>: IT Software</li>
+                                            <li><span>Profile Created By</span>: Self</li>
+                                            <li><span>Location</span>: Semrd, 7th c, Los</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 biseller-column">
+                            <a href="groom_profile.html">
+                                <div class="profile-image">
+                                    <img src="images/p7.jpg" class="img-responsive" alt="profile image">
+                                    <div class="agile-overlay">
+                                        <h4>Profile ID: 458645</h4>
+                                        <ul>
+                                            <li><span>Age / Height</span>: 26 / 5'0''</li>
+                                            <li><span>Caste</span>: Ipsum</li>
+                                            <li><span>Religion</span>: Lorem</li>
+                                            <li><span>Profession</span>: IT Software</li>
+                                            <li><span>Profile Created By</span>: Self</li>
+                                            <li><span>Location</span>: Semrd, 7th c, Los</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 biseller-column">
+                            <a href="bride_profile.html">
+                                <div class="profile-image">
+                                    <img src="images/p8.jpg" class="img-responsive" alt="profile image">
+                                    <div class="agile-overlay">
+                                        <h4>Profile ID: 458645</h4>
+                                        <ul>
+                                            <li><span>Age / Height</span>: 26 / 5'0''</li>
+                                            <li><span>Caste</span>: Ipsum</li>
+                                            <li><span>Religion</span>: Lorem</li>
+                                            <li><span>Profession</span>: IT Software</li>
+                                            <li><span>Profile Created By</span>: Self</li>
+                                            <li><span>Location</span>: Semrd, 7th c, Los</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="col-md-4 biseller-column">
+                            <a href="groom_profile.html">
+                                <div class="profile-image">
+                                    <img src="images/p9.jpg" class="img-responsive" alt="profile image">
+                                    <div class="agile-overlay">
+                                        <h4>Profile ID: 458645</h4>
+                                        <ul>
+                                            <li><span>Age / Height</span>: 26 / 5'0''</li>
+                                            <li><span>Caste</span>: Ipsum</li>
+                                            <li><span>Religion</span>: Lorem</li>
+                                            <li><span>Profession</span>: IT Software</li>
+                                            <li><span>Profile Created By</span>: Self</li>
+                                            <li><span>Location</span>: Semrd, 7th c, Los</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 biseller-column">
+                            <a href="groom_profile.html">
+                                <div class="profile-image">
+                                    <img src="images/p10.jpg" class="img-responsive" alt="profile image">
+                                    <div class="agile-overlay">
+                                        <h4>Profile ID: 458645</h4>
+                                        <ul>
+                                            <li><span>Age / Height</span>: 26 / 5'0''</li>
+                                            <li><span>Caste</span>: Ipsum</li>
+                                            <li><span>Religion</span>: Lorem</li>
+                                            <li><span>Profession</span>: IT Software</li>
+                                            <li><span>Profile Created By</span>: Self</li>
+                                            <li><span>Location</span>: Semrd, 7th c, Los</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 biseller-column">
+                            <a href="groom_profile.html">
+                                <div class="profile-image">
+                                    <img src="images/p11.jpg" class="img-responsive" alt="profile image">
+                                    <div class="agile-overlay">
+                                        <h4>Profile ID: 458645</h4>
+                                        <ul>
+                                            <li><span>Age / Height</span>: 26 / 5'0''</li>
+                                            <li><span>Caste</span>: Ipsum</li>
+                                            <li><span>Religion</span>: Lorem</li>
+                                            <li><span>Profession</span>: IT Software</li>
+                                            <li><span>Profile Created By</span>: Self</li>
+                                            <li><span>Location</span>: Semrd, 7th c, Los</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 biseller-column">
+                            <a href="bride_profile.html">
+                                <div class="profile-image">
+                                    <img src="images/p12.jpg" class="img-responsive" alt="profile image">
+                                    <div class="agile-overlay">
+                                        <h4>Profile ID: 458645</h4>
+                                        <ul>
+                                            <li><span>Age / Height</span>: 26 / 5'0''</li>
+                                            <li><span>Caste</span>: Ipsum</li>
+                                            <li><span>Religion</span>: Lorem</li>
+                                            <li><span>Profession</span>: IT Software</li>
+                                            <li><span>Profile Created By</span>: Self</li>
+                                            <li><span>Location</span>: Semrd, 7th c, Los</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 biseller-column">
+                            <a href="groom_profile.html">
+                                <div class="profile-image">
+                                    <img src="images/p7.jpg" class="img-responsive" alt="profile image">
+                                    <div class="agile-overlay">
+                                        <h4>Profile ID: 458645</h4>
+                                        <ul>
+                                            <li><span>Age / Height</span>: 26 / 5'0''</li>
+                                            <li><span>Caste</span>: Ipsum</li>
+                                            <li><span>Religion</span>: Lorem</li>
+                                            <li><span>Profession</span>: IT Software</li>
+                                            <li><span>Profile Created By</span>: Self</li>
+                                            <li><span>Location</span>: Semrd, 7th c, Los</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 biseller-column">
+                            <a href="bride_profile.html">
+                                <div class="profile-image">
+                                    <img src="images/p5.jpg" class="img-responsive" alt="profile image">
+                                    <div class="agile-overlay">
+                                        <h4>Profile ID: 458645</h4>
+                                        <ul>
+                                            <li><span>Age / Height</span>: 26 / 5'0''</li>
+                                            <li><span>Caste</span>: Ipsum</li>
+                                            <li><span>Religion</span>: Lorem</li>
+                                            <li><span>Profession</span>: IT Software</li>
+                                            <li><span>Profile Created By</span>: Self</li>
+                                            <li><span>Location</span>: Semrd, 7th c, Los</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 biseller-column">
+                            <a href="groom_profile.html">
+                                <div class="profile-image">
+                                    <img src="images/p1.jpg" class="img-responsive" alt="profile image">
+                                    <div class="agile-overlay">
+                                        <h4>Profile ID: 458645</h4>
+                                        <ul>
+                                            <li><span>Age / Height</span>: 26 / 5'0''</li>
+                                            <li><span>Caste</span>: Ipsum</li>
+                                            <li><span>Religion</span>: Lorem</li>
+                                            <li><span>Profession</span>: IT Software</li>
+                                            <li><span>Profile Created By</span>: Self</li>
+                                            <li><span>Location</span>: Semrd, 7th c, Los</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 biseller-column">
+                            <a href="groom_profile.html">
+                                <div class="profile-image">
+                                    <img src="images/p2.jpg" class="img-responsive" alt="profile image">
+                                    <div class="agile-overlay">
+                                        <h4>Profile ID: 458645</h4>
+                                        <ul>
+                                            <li><span>Age / Height</span>: 26 / 5'0''</li>
+                                            <li><span>Caste</span>: Ipsum</li>
+                                            <li><span>Religion</span>: Lorem</li>
+                                            <li><span>Profession</span>: IT Software</li>
+                                            <li><span>Profile Created By</span>: Self</li>
+                                            <li><span>Location</span>: Semrd, 7th c, Los</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- //slider -->
+    </div>
+
+    <div class="section-how-it section-bg">
+        
+        <div class="container">
+            <div class="section-heading text-center">
+                <img src="images/ring.png" class="heading-s-icon">
+                <h3>How It  <span>Works</span></h3>
+           </div>
+           <div class="section-how-block-content">
+                <div class="row">
+                    <div class="col-md-4 relative">
+                        <div class="section-how-block">
+                            <div class="s-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="31.308" height="31.308" viewBox="0 0 31.308 31.308"><g id="add" transform="translate(0.5 0.5)"><path id="Path_25210" data-name="Path 25210" d="M12,25.731H3.157A3.161,3.161,0,0,1,0,22.574V6.157A3.161,3.161,0,0,1,3.157,3H5.683a.631.631,0,0,1,0,1.263H3.157A1.9,1.9,0,0,0,1.263,6.157V22.574a1.9,1.9,0,0,0,1.894,1.894H12a.631.631,0,0,1,0,1.263Z" transform="translate(0 0.788)" fill="#9e8382" stroke="#9e8382" stroke-width="1"></path><path id="Path_25211" data-name="Path 25211" d="M17.683,10.577a.632.632,0,0,1-.631-.631V6.157a1.9,1.9,0,0,0-1.894-1.894H12.631a.631.631,0,0,1,0-1.263h2.526a3.161,3.161,0,0,1,3.157,3.157V9.945A.632.632,0,0,1,17.683,10.577Z" transform="translate(3.154 0.788)" fill="#9e8382" stroke="#9e8382" stroke-width="1"></path><path id="Path_25212" data-name="Path 25212" d="M13.471,7.577H5.894A1.9,1.9,0,0,1,4,5.683V3.157a.632.632,0,0,1,.631-.631H6.589a3.158,3.158,0,0,1,6.188,0h1.957a.632.632,0,0,1,.631.631V5.683A1.9,1.9,0,0,1,13.471,7.577ZM5.263,3.788V5.683a.632.632,0,0,0,.631.631h7.577a.632.632,0,0,0,.631-.631V3.788H12.208a.632.632,0,0,1-.631-.631,1.894,1.894,0,0,0-3.788,0,.632.632,0,0,1-.631.631Z" transform="translate(1.051)" fill="#9e8382" stroke="#9e8382" stroke-width="1"></path><path id="Path_25213" data-name="Path 25213" d="M19.208,27.417a8.208,8.208,0,1,1,8.208-8.208A8.218,8.218,0,0,1,19.208,27.417Zm0-15.154a6.945,6.945,0,1,0,6.945,6.945A6.954,6.954,0,0,0,19.208,12.263Z" transform="translate(2.891 2.891)" fill="#9e8382" stroke="#9e8382" stroke-width="1"></path><path id="Path_25214" data-name="Path 25214" d="M17.631,22.84A.632.632,0,0,1,17,22.208V14.631a.631.631,0,0,1,1.263,0v7.577A.632.632,0,0,1,17.631,22.84Z" transform="translate(4.468 3.679)" fill="#9e8382" stroke="#9e8382" stroke-width="1"></path><path id="Path_25215" data-name="Path 25215" d="M22.208,18.263H14.631a.631.631,0,0,1,0-1.263h7.577a.631.631,0,0,1,0,1.263Z" transform="translate(3.679 4.468)" fill="#9e8382" stroke="#9e8382" stroke-width="1"></path><path id="Path_25216" data-name="Path 25216" d="M16.26,9.263H3.631A.631.631,0,0,1,3.631,8H16.26a.631.631,0,0,1,0,1.263Z" transform="translate(0.788 2.103)" fill="#9e8382" stroke="#9e8382" stroke-width="1"></path><path id="Path_25217" data-name="Path 25217" d="M12.471,12.263H3.631a.631.631,0,0,1,0-1.263h8.84a.631.631,0,0,1,0,1.263Z" transform="translate(0.788 2.891)" fill="#9e8382" stroke="#9e8382" stroke-width="1"></path><path id="Path_25218" data-name="Path 25218" d="M9.945,15.263H3.631a.631.631,0,0,1,0-1.263H9.945a.631.631,0,0,1,0,1.263Z" transform="translate(0.788 3.679)" fill="#9e8382" stroke="#9e8382" stroke-width="1"></path></g></svg>
+                            </div> 
+                            <h6>Registers</h6>
+                            <p>
+                                Register to our website, fill up your profile completely, and put a beautiful image on your profile.					</p>
+                        </div>
+                        <img width="289" height="37" src="https://nikaah.wpdating.com/wp-content/uploads/2021/09/arrow.png" class="how-icon-left"> 
+                    </div> 
+                    <div class="col-md-4 relative">
+                        <div class="section-how-block">
+                            <div class="s-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" id="search" width="33.129" height="33.13" viewBox="0 0 33.129 33.13"><g id="Group_170" data-name="Group 170" transform="translate(4.981 7.181)"><g id="Group_169" data-name="Group 169"><path id="Path_25219" data-name="Path 25219" d="M81.144,111.334a1.223,1.223,0,0,0-1.731,0,8.365,8.365,0,0,0-2.392,6.781,1.224,1.224,0,0,0,1.217,1.1c.041,0,.082,0,.123-.006a1.224,1.224,0,0,0,1.1-1.34,5.926,5.926,0,0,1,1.687-4.806A1.223,1.223,0,0,0,81.144,111.334Z" transform="translate(-76.978 -110.975)" fill="#9e8382"></path></g></g><g id="Group_172" data-name="Group 172"><g id="Group_171" data-name="Group 171"><path id="Path_25220" data-name="Path 25220" d="M13.994,0A13.994,13.994,0,1,0,27.989,13.994,14.01,14.01,0,0,0,13.994,0Zm0,25.541A11.546,11.546,0,1,1,25.541,13.994,11.559,11.559,0,0,1,13.994,25.541Z" fill="#9e8382"></path></g></g><g id="Group_174" data-name="Group 174" transform="translate(21.787 21.787)"><g id="Group_173" data-name="Group 173"><path id="Path_25221" data-name="Path 25221" d="M347.692,345.962l-8.894-8.894a1.224,1.224,0,0,0-1.731,1.731l8.894,8.894a1.224,1.224,0,1,0,1.731-1.731Z" transform="translate(-336.708 -336.71)" fill="#9e8382"></path></g></g></svg>
+                            </div> 
+                            <h6>Find Your Partner</h6>
+                            <p>
+                                Search your interests that you like. You'll also be recommended users based on your preferences.	</p>
+                        </div>
+                        <img width="289" height="37" src="https://nikaah.wpdating.com/wp-content/uploads/2021/09/arrow.png" class="how-icon-left"> 
+                    </div> 
+                    <div class="col-md-4">
+                        <div class="section-how-block">
+                            <div class="s-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="31.308" height="31.308" viewBox="0 0 31.308 31.308"><g id="add" transform="translate(0.5 0.5)"><path id="Path_25210" data-name="Path 25210" d="M12,25.731H3.157A3.161,3.161,0,0,1,0,22.574V6.157A3.161,3.161,0,0,1,3.157,3H5.683a.631.631,0,0,1,0,1.263H3.157A1.9,1.9,0,0,0,1.263,6.157V22.574a1.9,1.9,0,0,0,1.894,1.894H12a.631.631,0,0,1,0,1.263Z" transform="translate(0 0.788)" fill="#9e8382" stroke="#9e8382" stroke-width="1"></path><path id="Path_25211" data-name="Path 25211" d="M17.683,10.577a.632.632,0,0,1-.631-.631V6.157a1.9,1.9,0,0,0-1.894-1.894H12.631a.631.631,0,0,1,0-1.263h2.526a3.161,3.161,0,0,1,3.157,3.157V9.945A.632.632,0,0,1,17.683,10.577Z" transform="translate(3.154 0.788)" fill="#9e8382" stroke="#9e8382" stroke-width="1"></path><path id="Path_25212" data-name="Path 25212" d="M13.471,7.577H5.894A1.9,1.9,0,0,1,4,5.683V3.157a.632.632,0,0,1,.631-.631H6.589a3.158,3.158,0,0,1,6.188,0h1.957a.632.632,0,0,1,.631.631V5.683A1.9,1.9,0,0,1,13.471,7.577ZM5.263,3.788V5.683a.632.632,0,0,0,.631.631h7.577a.632.632,0,0,0,.631-.631V3.788H12.208a.632.632,0,0,1-.631-.631,1.894,1.894,0,0,0-3.788,0,.632.632,0,0,1-.631.631Z" transform="translate(1.051)" fill="#9e8382" stroke="#9e8382" stroke-width="1"></path><path id="Path_25213" data-name="Path 25213" d="M19.208,27.417a8.208,8.208,0,1,1,8.208-8.208A8.218,8.218,0,0,1,19.208,27.417Zm0-15.154a6.945,6.945,0,1,0,6.945,6.945A6.954,6.954,0,0,0,19.208,12.263Z" transform="translate(2.891 2.891)" fill="#9e8382" stroke="#9e8382" stroke-width="1"></path><path id="Path_25214" data-name="Path 25214" d="M17.631,22.84A.632.632,0,0,1,17,22.208V14.631a.631.631,0,0,1,1.263,0v7.577A.632.632,0,0,1,17.631,22.84Z" transform="translate(4.468 3.679)" fill="#9e8382" stroke="#9e8382" stroke-width="1"></path><path id="Path_25215" data-name="Path 25215" d="M22.208,18.263H14.631a.631.631,0,0,1,0-1.263h7.577a.631.631,0,0,1,0,1.263Z" transform="translate(3.679 4.468)" fill="#9e8382" stroke="#9e8382" stroke-width="1"></path><path id="Path_25216" data-name="Path 25216" d="M16.26,9.263H3.631A.631.631,0,0,1,3.631,8H16.26a.631.631,0,0,1,0,1.263Z" transform="translate(0.788 2.103)" fill="#9e8382" stroke="#9e8382" stroke-width="1"></path><path id="Path_25217" data-name="Path 25217" d="M12.471,12.263H3.631a.631.631,0,0,1,0-1.263h8.84a.631.631,0,0,1,0,1.263Z" transform="translate(0.788 2.891)" fill="#9e8382" stroke="#9e8382" stroke-width="1"></path><path id="Path_25218" data-name="Path 25218" d="M9.945,15.263H3.631a.631.631,0,0,1,0-1.263H9.945a.631.631,0,0,1,0,1.263Z" transform="translate(0.788 3.679)" fill="#9e8382" stroke="#9e8382" stroke-width="1"></path></g></svg>
+                            </div>  
+                            <h6>
+                                Connect					</h6>
+                            <p>
+                                
+						Add friends, approach them, and chat with them. Be sure to share your audio, photo, and video too.						</p>
+                        </div>
+                    </div> 
+                </div>  
+           </div>
+           <a class="btn-pink" href="#home">Get started</a>
+        </div> 
+    </div>
+
+
+
+    <script type="text/javascript" src="js/jquery.flexisel.js"></script><!-- flexisel-js -->
+    <script type="text/javascript">
+        $(window).load(function () {
+            $("#flexiselDemo3").flexisel({
+                visibleItems: 1,
+                animationSpeed: 1000,
+                autoPlay: false,
+                autoPlaySpeed: 5000,
+                pauseOnHover: true,
+                enableResponsiveBreakpoints: true,
+                responsiveBreakpoints: {
+                    portrait: {
+                        changePoint: 480,
+                        visibleItems: 1
+                    },
+                    landscape: {
+                        changePoint: 640,
+                        visibleItems: 1
+                    },
+                    tablet: {
+                        changePoint: 768,
+                        visibleItems: 1
+                    }
+                }
+            });
+
+        });
+    </script>
+    <!-- //featured profiles -->
+    <!-- mobile-app -->
+    <div class="wthree-mobilaapp main-grid-border relative">
+        <img src="images/bg-elements.png" class="bg-icon icon-left-bottom">
+        <img src="images/bg-elements.png" class="bg-icon icon-right-bottom">
+        <div class="container">
+            <div class="app">
+                <div class="col-md-6 w3ls_app-left mpl">
+                    <div class="section-heading">
+                        <img src="images/ring.png" class="heading-s-icon">
+                        <h3>Matrimonial mobile app on <span>your smartphone!</span></h3>
+                    </div>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    <div class="agileits_app-devices">
+                        <h5>Download the App</h5>
+                        <a href="#"><img src="images/1.png" alt=""></a>
+                        <a href="#"><img src="images/2.png" alt=""></a>
+                        <div class="clearfix"> </div>
+                    </div>
+                </div>
+                <div class="col-md-offset-1 col-md-5 app-image">
+                    <img src="images/mob.png" alt="">
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <!-- /mobile-app -->
+    <!-- Get started -->
+    <div class="section-find section-spacer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="section-heading">
+                        <img src="images/ring.png" class="heading-s-icon">
+                        <h3>Let's Find Your  <span>Best Match</span></h3>                        
+                   </div>
+                   <div class="normal-content">
+                    <p>Start your dating journey today with Nikaah and find your Perfect Match. Get ready to enjoy each & every moment to capture those beautiful memories for your lifetime.</p>
+                   </div>
+                   <a class="btn-pink" href="#home">Let's Get Started</a>
+                </div>
+                <div class="col-md-4">
+        
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //Get started -->
+    <!-- footer -->
+    <footer>
+        <div class="footer relative">
+            <img src="images/bg-elements.png" class="bg-icon icon-left-bottom">
+        <img src="images/bg-elements.png" class="bg-icon icon-right-bottom">
+            <div class="container">
+                <div class="footer-info w3-agileits-info">
+                    <div class="col-md-4 address-left agileinfo">
+                        <div class="footer-logo header-logo">                        
+                            <div class="section-heading">
+                                <h3>Get in <span> Touch.</span></h3>
+                            </div>
+                        </div>
+                        <ul>
+                            <li><i class="fa fa-map-marker"></i> 123 San Sebastian, New York City USA.</li>
+                            <li><i class="fa fa-mobile"></i><a href="tel:+333 222 3333">333 222 3333</a></li>
+                            <li><i class="fa fa-phone"></i> <a href="tel:+222 11 4444">+222 11 4444</a></li>
+                            <li><i class="fa fa-envelope-o"></i> <a href="mailto:example@mail.com"> mail@example.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-8 address-right">
+                        <div class="col-md-4 footer-grids">
+                            <h3>Company</h3>
+                            <ul>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="feedback.html">Feedback</a></li>
+                                <li><a href="help.html">Help</a></li>
+                                <li><a href="tips.html">Safety Tips</a></li>
+                                <li><a href="typo.html">Typography</a></li>
+                                <li><a href="icons.html">Icons Page</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 footer-grids">
+                            <h3>Quick links</h3>
+                            <ul>
+                                <li><a href="terms.html">Terms of use</a></li>
+                                <li><a href="privacy_policy.html">Privacy Policy</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                                <li><a href="faq.html">FAQ</a></li>
+                                <li><a href="sitemap.html">Sitemap</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 footer-grids">
+                            <h3>Follow Us on</h3>
+                            <section class="social">
+                                <ul>
+                                    <li><a class="icon fb" href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a class="icon tw" href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a class="icon gp" href="#"><i class="fa fa-google-plus"></i></a></li>
+                                </ul>
+                            </section>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">
+            <div class="container">
+                <p>© 2021 Match. All rights reserved</a></p>
+            </div>
+        </div>
+    </footer>
+    <!-- //footer -->
+    <!-- menu js aim -->
+    <script src="js/jquery.menu-aim.js"></script>
+    <script src="js/main.js"></script> <!-- Resource jQuery -->
+    <!-- //menu js aim -->
+    <!-- for bootstrap working -->
+    <script src="js/bootstrap.js"></script>
+    <!-- //for bootstrap working -->
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            /*
+            var defaults = {
+                    containerID: 'toTop', // fading element id
+                containerHoverID: 'toTopHover', // fading element hover id
+                scrollSpeed: 1200,
+                easingType: 'linear'
+                };
+            */
+
+            $().UItoTop({ easingType: 'easeOutQuart' });
+
+        });
+    </script>
+    <a href="#" id="toTop" style="display: block;"> 
+        <span id="toTopHover" style="opacity: 1;"> </span>       
+    </a>
+    <!-- for smooth scrolling -->
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+            });
+        });
+    </script>
+    <script>
+            $('.counter').each(function() {
+  var $this = $(this),
+      countTo = $this.attr('data-count');
+  
+  $({ countNum: $this.text()}).animate({
+    countNum: countTo
+  },
+
+  {
+
+    duration: 8000,
+    easing:'linear',
+    step: function() {
+      $this.text(Math.floor(this.countNum));
+    },
+    complete: function() {
+      $this.text(this.countNum);
+      //alert('finished');
+    }
+
+  });  
+  
+  
+
+});
+    </script>
+    <!-- //for smooth scrolling -->
+
+</body>
+<!-- //body -->
+</html>
+<!-- //html -->
